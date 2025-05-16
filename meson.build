@@ -19,7 +19,7 @@ gdk_pixbuf_dep = dependency('gdk-pixbuf-2.0')
 gst_dep = dependency('gstreamer-1.0', version: gst_req_version)
 gst_tag_dep = dependency('gstreamer-tag-1.0', version: '>= 0.11.93')
 gst_video_dep = dependency('gstreamer-video-1.0')
-totem_plparser_dep = dependency('totem-plparser', version: totem_plparser_req_version)
+totem_plparser_dep = dependency('totem-pl-parser', version: totem_plparser_req_version)
 
 cc = meson.get_compiler('c')
 m_dep = cc.find_library('m', required: true)
